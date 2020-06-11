@@ -17,12 +17,21 @@
 .header {
   position: fixed;
   text-align: center;
-  top:40%;
+  top:35%;
   background: rgba(0, 0, 0, 0.0);
   font-family: meltdown;
-  font-size: x-large;
+  font-size: xx-large;
   font-style: bold;
   color: #E400F7;
   width: 100%;
   padding: 20px;
+}
+
+.email-link{
+  font-family: 'Courier New', Courier, monospace;
+  color: #E400F7;
+  text-decoration: none;
+  list-style: none;
+  font-size: medium;
+  text-transform: lowercase;
 }
