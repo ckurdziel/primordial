@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'meltdown';
+  src: url('../Meltdown.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#ooze {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+/* Add some content at the bottom of the video/page */
+.header {
+  position: fixed;
+  text-align: center;
+  top:40%;
+  background: rgba(0, 0, 0, 0.0);
+  font-family: meltdown;
+  font-size: x-large;
+  font-style: bold;
+  color: #E400F7;
+  width: 100%;
+  padding: 20px;
+}
